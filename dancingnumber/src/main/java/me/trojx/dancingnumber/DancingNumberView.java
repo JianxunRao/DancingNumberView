@@ -51,7 +51,9 @@ public class DancingNumberView extends TextView {
         super(context, attrs);
         TypedArray ta=context.obtainStyledAttributes(attrs,R.styleable.DancingNumberView);
         duration=ta.getInteger(R.styleable.DancingNumberView_dnv_duration,1500);
-        format=ta.getString(R.styleable.DancingNumberView_dnv_format);
+        if (ta.hasValue(R.styleable.DancingNumberView_dnv_format)){
+            format=ta.getString(R.styleable.DancingNumberView_dnv_format);
+        }
     }
 
     /**
