@@ -2,7 +2,10 @@
 
 [![](https://jitpack.io/v/JianxunRao/DancingNumberView.svg)](https://jitpack.io/#JianxunRao/DancingNumberView)
 
-DancingNumberView是一个用于跳动显示文本中数字的控件,继承自TextView.
+DancingNumberView是一个用于跳动显示文本中数字的控件,继承自TextView.这种控件一般用于显示金额等对用户较为敏感的数字,让UI交互更加生动.
+它具有以下几点特性:
+- 自动获取文本中的所有数字,并同时开始跳动,免去多个TextView拼接的麻烦
+- 支持数字按照自定义的格式显示,例如限定只显示小数点后两位
 ## Preview
 ![screenshot](https://github.com/JianxunRao/DancingNumberView/blob/master/app/screenshot/device-2017-01-19-175313.gif)
 ## Import
