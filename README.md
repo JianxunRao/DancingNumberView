@@ -4,7 +4,7 @@
 
 DancingNumberView是一个用于跳动显示文本中数字的控件,继承自TextView.
 ## Preview
-
+![screenshot](https://github.com/JianxunRao/DancingNumberView/blob/master/app/screenshot/device-2017-01-19-175313.gif)
 ## Import
 ### Gradle
 
@@ -20,7 +20,7 @@ Step 1. Add the JitPack repository to your project build file
 Step 2. Add the dependency in your app build file
 
 	dependencies {
-	        compile 'com.github.Hitomis:CircleMenu:v1.0.2'
+	       compile 'com.github.JianxunRao:DancingNumberView:V1.0.0'
 	}
 
 ## Usage
